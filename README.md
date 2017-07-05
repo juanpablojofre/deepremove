@@ -7,14 +7,14 @@ to remove by traditional tools or shell commands in Windows.
 
 This is common text
 
-### Header A
+### Heading A
 
 - Item 1
 - Item 2
 
 ## Mechanics
 
-### Header A
+### Heading A
 
 - Item 1
 - Item 2
@@ -23,3 +23,5 @@ This is common text
 
 1 First item
 2 Second item
+
+### It's a heading full of odd characters: "like (parenthesis) [square-brackets]"
