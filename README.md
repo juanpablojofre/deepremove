@@ -27,3 +27,7 @@ This is common text
 ### It's a heading full of odd characters: "like (parenthesis) [square-brackets]"
 
 ## This - heading contains  double  spacing between  words
+
+### Finding wich characters are filtered out q!q@q#q$q%q^q&q*q(q)q_q+q-q=q[q]q{q}q\q|
+
+### Understanding puntuation marks:,.?;:
