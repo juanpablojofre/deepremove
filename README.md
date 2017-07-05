@@ -31,3 +31,9 @@ This is common text
 ### Finding wich characters are filtered out q!q@q#q$q%q^q&q*q(q)q_q+q-q=q[q]q{q}q\q|
 
 ### Understanding puntuation marks:,.?;:
+
+##    Single asterisk * followed by asterisk *
+
+###   Single underline _ followed by underline _
+
+##    Asterisks * enclosing underline _ character *
