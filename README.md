@@ -25,3 +25,5 @@ This is common text
 2 Second item
 
 ### It's a heading full of odd characters: "like (parenthesis) [square-brackets]"
+
+## This - heading contains  double  spacing between  words
