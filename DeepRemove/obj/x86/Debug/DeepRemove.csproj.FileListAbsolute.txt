@@ -1,0 +1,8 @@
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Debug\DeepRemove.deepRemoveUIfrm.resources
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Debug\JPJSM.Properties.Resources.resources
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Debug\DeepRemove.csproj.GenerateResource.Cache
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\bin\Debug\DeepRemove.exe
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\bin\Debug\DeepRemove.pdb
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Debug\DeepRemove.exe
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Debug\DeepRemove.pdb
+D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Debug\DeepRemove.csprojResolveAssemblyReference.cache
