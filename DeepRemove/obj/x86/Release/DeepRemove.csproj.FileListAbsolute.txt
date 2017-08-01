@@ -1,7 +1,0 @@
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\bin\Release\DeepRemove.exe
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\bin\Release\DeepRemove.pdb
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Release\DeepRemove.deepRemoveUIfrm.resources
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Release\JPJSM.Properties.Resources.resources
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Release\DeepRemove.csproj.GenerateResource.Cache
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Release\DeepRemove.exe
-D:\GIT\Github\juanpablojofre\deepremove\DeepRemove\obj\x86\Release\DeepRemove.pdb
