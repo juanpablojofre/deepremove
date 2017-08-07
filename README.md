@@ -24,7 +24,7 @@ I ported the tool to this place. And, also added a new version of the tool.
 -  The executable (installer) is [DeepRemove_1_0_26_58.zip](setup/DeepRemove_1_0_26_58.zip)
 -  For the tool usage see [DeepRemove](DeepRemove/README.md)
 
-## [DeepRemove2]() version 2
+## [DeepRemove2](DeepRemove2/README.md) version 2
 
 -  This is a command line application.
 -  The tool was written in C++ with calls into the standard library (STL) and "windows.h".
@@ -40,12 +40,12 @@ so your contributions (either PRs or issues) might wait for a long time.
 
 ## Legal and Licensing
 
-PowerShell is licensed under the [MIT license][LICENSE.md].
+PowerShell is licensed under the [MIT license](LICENSE.md).
 
-## [Code of Conduct][conduct-md]
+## Code of Conduct
 
 This project has adopted the 
-[Microsoft Open Source Code of Conduct][http://opensource.microsoft.com/codeofconduct/].
+[Microsoft Open Source Code of Conduct](http://opensource.microsoft.com/codeofconduct/).
 
-For more information see the [Code of Conduct FAQ][http://opensource.microsoft.com/codeofconduct/faq/] 
-or contact [opencode@microsoft.com][mailto:opencode@microsoft.com] with any additional questions or comments.
+For more information see the [Code of Conduct FAQ](http://opensource.microsoft.com/codeofconduct/faq/)
+or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
