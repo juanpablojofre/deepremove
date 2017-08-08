@@ -28,6 +28,17 @@ bool folderExists(std::wstring path)
 	return ffd.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY;
 }
 
+void waitUntilFolderDisappears(std::wstring path, DWORD maxsleep = 128)
+{
+	DWORD sleeptime = 4; // milliseconds
+
+	do
+	{
+		Sleep(sleeptime);
+		sleeptime <<= 1;
+	} while (folderExists(path) && sleeptime < maxsleep);
+}
+
 std::wstring formatLongFolderSearch(std::wstring path)
 {
 	return L"\\\\?\\" + std::wstring(path) + L"\\*";
@@ -80,9 +91,9 @@ bool deepRemove(std::wstring rootFolder, LogLevel loglevel)
 			if ((loglevel  != LogLevel::NoLog) && (loglevel <= LogLevel::VerboseLog)) 
                 std::wclog << L"Deleting '" << currentFile << "'" << std::endl;
 
-			if(deleteFile(currentFile, loglevel) 
-                && (loglevel != LogLevel::NoLog) 
-                && (loglevel <= LogLevel::TraceLog)) std::wclog << L"Deleted '" << currentFile << "'" << std::endl;
+			if (deleteFile(currentFile, loglevel)
+				&& (loglevel != LogLevel::NoLog)
+				&& (loglevel <= LogLevel::TraceLog)) std::wclog << L"File deleted '" << currentFile << "'" << std::endl;
 		}
 
 	} while (FindNextFileW(hFind, &ffd) != 0);
@@ -135,9 +146,13 @@ bool deepRemove(std::wstring rootFolder, LogLevel loglevel)
 		if ((loglevel  != LogLevel::NoLog) && (loglevel <= LogLevel::VerboseLog)) 
             std::wclog << L"Deleting folder '" << folders.front() << "'" << std::endl;
 
-		if (deleteFolder(folders.front(), loglevel) 
-            && (loglevel != LogLevel::NoLog)
-            && (loglevel <= LogLevel::TraceLog)) std::wclog << L"Folder deleted '" << folders.front() << "'" << std::endl;
+		if (deleteFolder(folders.front(), loglevel))
+		{
+			if((loglevel != LogLevel::NoLog) && (loglevel <= LogLevel::TraceLog)) 
+				std::wclog << L"Folder deleted '" << folders.front() << "'" << std::endl;
+
+			waitUntilFolderDisappears(folders.front());
+		}
 
 		folders.pop();
 	}
