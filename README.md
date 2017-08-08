@@ -28,7 +28,7 @@ I ported the tool to this place. And, also added a new version of the tool.
 
 -  This is a command line application.
 -  The tool was written in C++ with calls into the standard library (STL) and "windows.h".
--  The executable (installer) is [DeepRemove2_1_0_2.zip](setup/DeepRemove2_1_0_2.zip)
+-  The executable (installer) is [DeepRemove2_1_0_3.zip](setup/DeepRemove2_1_0_3.zip)
 -  Type 'DeepRemove2' at a console prompt to get help
    (assuming the tool folder is listed in your path).
 
