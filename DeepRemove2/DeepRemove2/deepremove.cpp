@@ -98,6 +98,8 @@ bool deepRemove(std::wstring rootFolder, LogLevel loglevel)
 
 	} while (FindNextFileW(hFind, &ffd) != 0);
 
+    FindClose(hFind);
+
 	// Deep Remove
 	while (!folders.empty())
 	{
@@ -142,6 +144,8 @@ bool deepRemove(std::wstring rootFolder, LogLevel loglevel)
 			}
 
 		} while (FindNextFileW(hFind, &ffd) != 0);
+
+        FindClose(hFind);
 
 		if ((loglevel  != LogLevel::NoLog) && (loglevel <= LogLevel::VerboseLog)) 
             std::wclog << L"Deleting folder '" << folders.front() << "'" << std::endl;
