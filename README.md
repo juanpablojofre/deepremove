@@ -10,7 +10,7 @@ too deep to remove by traditional tools or shell commands in Windows.
 I started this tool long time back in CodePlex to solve 
 a recurrent problem in Windows. 
 In Windows, some tools can create deeply nested folder structures,
-with paths that exceed the 260 character max lenght (in the shell and UI);
+with paths that exceed the 260 character max length (in the shell and UI);
 once the path exceeds the limit, there were no tools 
 to help you remove those folders.
 
